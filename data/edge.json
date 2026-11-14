@@ -1,0 +1,429 @@
+{
+  "shipments": [
+    {
+      "id": "0-east",
+      "destination": "east",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 39,
+      "duration_upper": 39,
+      "complete": true
+    },
+    {
+      "id": "direct-0-east",
+      "destination": "east",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "0-south",
+      "destination": "south",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 44,
+      "duration_upper": 44,
+      "complete": true
+    },
+    {
+      "id": "direct-0-south",
+      "destination": "south",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    },
+    {
+      "id": "0-north",
+      "destination": "north",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 51,
+      "duration_upper": 51,
+      "complete": true
+    },
+    {
+      "id": "direct-0-north",
+      "destination": "north",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 38,
+      "duration_upper": 38,
+      "complete": true
+    },
+    {
+      "id": "13-east",
+      "destination": "east",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "13-south",
+      "destination": "south",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "13-north",
+      "destination": "north",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "26-east",
+      "destination": "east",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "26-south",
+      "destination": "south",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "26-north",
+      "destination": "north",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "33-east",
+      "destination": "east",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "direct-33-east",
+      "destination": "east",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 19,
+      "duration_upper": 19,
+      "complete": true
+    },
+    {
+      "id": "33-south",
+      "destination": "south",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 19,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "direct-33-south",
+      "destination": "south",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 24,
+      "duration_upper": 24,
+      "complete": true
+    },
+    {
+      "id": "33-north",
+      "destination": "north",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 19,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "direct-33-north",
+      "destination": "north",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    }
+  ],
+  "segments": [
+    {
+      "id": "hub0",
+      "environment": "day0",
+      "hours": 25
+    },
+    {
+      "id": "hub1",
+      "environment": "day1",
+      "hours": 6
+    },
+    {
+      "id": "hub2",
+      "environment": "day2",
+      "hours": 7
+    },
+    {
+      "id": "hub3",
+      "environment": "day3",
+      "hours": 8
+    },
+    {
+      "id": "hub4",
+      "environment": "day4",
+      "hours": 5
+    },
+    {
+      "id": "hub5",
+      "environment": "day5",
+      "hours": 6
+    },
+    {
+      "id": "hub6",
+      "environment": "day6",
+      "hours": 7
+    },
+    {
+      "id": "hub7",
+      "environment": "day7",
+      "hours": 8
+    },
+    {
+      "id": "hub8",
+      "environment": "day8",
+      "hours": 5
+    },
+    {
+      "id": "hub9",
+      "environment": "day9",
+      "hours": 25
+    },
+    {
+      "id": "hub10",
+      "environment": "day10",
+      "hours": 7
+    },
+    {
+      "id": "hub11",
+      "environment": "day11",
+      "hours": 8
+    },
+    {
+      "id": "hub12",
+      "environment": "day12",
+      "hours": 5
+    },
+    {
+      "id": "hub13",
+      "environment": "day13",
+      "hours": 6
+    },
+    {
+      "id": "hub14",
+      "environment": "day14",
+      "hours": 7
+    },
+    {
+      "id": "hub15",
+      "environment": "day15",
+      "hours": 8
+    },
+    {
+      "id": "hub16",
+      "environment": "day16",
+      "hours": 5
+    },
+    {
+      "id": "hub17",
+      "environment": "day17",
+      "hours": 6
+    },
+    {
+      "id": "hub18",
+      "environment": "day18",
+      "hours": 25
+    },
+    {
+      "id": "hub19",
+      "environment": "day19",
+      "hours": 8
+    },
+    {
+      "id": "hub20",
+      "environment": "day20",
+      "hours": 5
+    },
+    {
+      "id": "hub21",
+      "environment": "day21",
+      "hours": 6
+    },
+    {
+      "id": "hub22",
+      "environment": "day22",
+      "hours": 7
+    },
+    {
+      "id": "hub23",
+      "environment": "day23",
+      "hours": 8
+    },
+    {
+      "id": "hub24",
+      "environment": "day24",
+      "hours": 5
+    },
+    {
+      "id": "hub25",
+      "environment": "day25",
+      "hours": 6
+    },
+    {
+      "id": "hub26",
+      "environment": "day26",
+      "hours": 7
+    },
+    {
+      "id": "hub27",
+      "environment": "day27",
+      "hours": 25
+    },
+    {
+      "id": "hub28",
+      "environment": "day28",
+      "hours": 5
+    },
+    {
+      "id": "hub29",
+      "environment": "day29",
+      "hours": 6
+    },
+    {
+      "id": "hub30",
+      "environment": "day30",
+      "hours": 7
+    },
+    {
+      "id": "hub31",
+      "environment": "day31",
+      "hours": 8
+    },
+    {
+      "id": "hub32",
+      "environment": "day32",
+      "hours": 5
+    },
+    {
+      "id": "hub33",
+      "environment": "day33",
+      "hours": 6
+    },
+    {
+      "id": "hub34",
+      "environment": "day34",
+      "hours": 7
+    },
+    {
+      "id": "hub35",
+      "environment": "day35",
+      "hours": 8
+    }
+  ],
+  "route_segments": {
+    "hub": [
+      "origin",
+      "shared-hub",
+      "last-mile"
+    ],
+    "direct": [
+      "origin",
+      "linehaul"
+    ]
+  },
+  "demand": {
+    "east": 0.4,
+    "south": 0.35,
+    "north": 0.25
+  },
+  "thresholds": {
+    "east": 30,
+    "south": 36,
+    "north": 42
+  }
+}

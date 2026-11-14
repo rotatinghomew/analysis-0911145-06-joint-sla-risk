@@ -1,0 +1,2007 @@
+{
+  "shipments": [
+    {
+      "id": "0-east",
+      "destination": "east",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 39,
+      "duration_upper": 39,
+      "complete": true
+    },
+    {
+      "id": "direct-0-east",
+      "destination": "east",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "0-south",
+      "destination": "south",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 44,
+      "duration_upper": 44,
+      "complete": true
+    },
+    {
+      "id": "direct-0-south",
+      "destination": "south",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    },
+    {
+      "id": "0-north",
+      "destination": "north",
+      "environment": "day0",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub0"
+      ],
+      "duration_lower": 51,
+      "duration_upper": 51,
+      "complete": true
+    },
+    {
+      "id": "direct-0-north",
+      "destination": "north",
+      "environment": "day0",
+      "route": "direct",
+      "holiday": true,
+      "segment_ids": [],
+      "duration_lower": 38,
+      "duration_upper": 38,
+      "complete": true
+    },
+    {
+      "id": "1-east",
+      "destination": "east",
+      "environment": "day1",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub1"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "1-south",
+      "destination": "south",
+      "environment": "day1",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub1"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "1-north",
+      "destination": "north",
+      "environment": "day1",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub1"
+      ],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "2-east",
+      "destination": "east",
+      "environment": "day2",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub2"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "2-south",
+      "destination": "south",
+      "environment": "day2",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub2"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "2-north",
+      "destination": "north",
+      "environment": "day2",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub2"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "3-east",
+      "destination": "east",
+      "environment": "day3",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub3"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "direct-3-east",
+      "destination": "east",
+      "environment": "day3",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 20,
+      "duration_upper": 20,
+      "complete": true
+    },
+    {
+      "id": "3-south",
+      "destination": "south",
+      "environment": "day3",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub3"
+      ],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "direct-3-south",
+      "destination": "south",
+      "environment": "day3",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "3-north",
+      "destination": "north",
+      "environment": "day3",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub3"
+      ],
+      "duration_lower": 37,
+      "duration_upper": 37,
+      "complete": true
+    },
+    {
+      "id": "direct-3-north",
+      "destination": "north",
+      "environment": "day3",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 32,
+      "duration_upper": 32,
+      "complete": true
+    },
+    {
+      "id": "4-east",
+      "destination": "east",
+      "environment": "day4",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub4"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "4-south",
+      "destination": "south",
+      "environment": "day4",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub4"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "4-north",
+      "destination": "north",
+      "environment": "day4",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub4"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "5-east",
+      "destination": "east",
+      "environment": "day5",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub5"
+      ],
+      "duration_lower": 20,
+      "duration_upper": 20,
+      "complete": true
+    },
+    {
+      "id": "5-south",
+      "destination": "south",
+      "environment": "day5",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub5"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "5-north",
+      "destination": "north",
+      "environment": "day5",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub5"
+      ],
+      "duration_lower": 32,
+      "duration_upper": 32,
+      "complete": true
+    },
+    {
+      "id": "6-east",
+      "destination": "east",
+      "environment": "day6",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub6"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "direct-6-east",
+      "destination": "east",
+      "environment": "day6",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 18,
+      "duration_upper": 18,
+      "complete": true
+    },
+    {
+      "id": "6-south",
+      "destination": "south",
+      "environment": "day6",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub6"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "direct-6-south",
+      "destination": "south",
+      "environment": "day6",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "6-north",
+      "destination": "north",
+      "environment": "day6",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub6"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "direct-6-north",
+      "destination": "north",
+      "environment": "day6",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "7-east",
+      "destination": "east",
+      "environment": "day7",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub7"
+      ],
+      "duration_lower": 24,
+      "duration_upper": 24,
+      "complete": true
+    },
+    {
+      "id": "7-south",
+      "destination": "south",
+      "environment": "day7",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub7"
+      ],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "7-north",
+      "destination": "north",
+      "environment": "day7",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub7"
+      ],
+      "duration_lower": 36,
+      "duration_upper": 36,
+      "complete": true
+    },
+    {
+      "id": "8-east",
+      "destination": "east",
+      "environment": "day8",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub8"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "8-south",
+      "destination": "south",
+      "environment": "day8",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub8"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "8-north",
+      "destination": "north",
+      "environment": "day8",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub8"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "9-east",
+      "destination": "east",
+      "environment": "day9",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub9"
+      ],
+      "duration_lower": 43,
+      "duration_upper": 43,
+      "complete": true
+    },
+    {
+      "id": "direct-9-east",
+      "destination": "east",
+      "environment": "day9",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "9-south",
+      "destination": "south",
+      "environment": "day9",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub9"
+      ],
+      "duration_lower": 48,
+      "duration_upper": 48,
+      "complete": true
+    },
+    {
+      "id": "direct-9-south",
+      "destination": "south",
+      "environment": "day9",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "9-north",
+      "destination": "north",
+      "environment": "day9",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub9"
+      ],
+      "duration_lower": 55,
+      "duration_upper": 55,
+      "complete": true
+    },
+    {
+      "id": "direct-9-north",
+      "destination": "north",
+      "environment": "day9",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 42,
+      "duration_upper": 42,
+      "complete": true
+    },
+    {
+      "id": "10-east",
+      "destination": "east",
+      "environment": "day10",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub10"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "10-south",
+      "destination": "south",
+      "environment": "day10",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub10"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "10-north",
+      "destination": "north",
+      "environment": "day10",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub10"
+      ],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "11-east",
+      "destination": "east",
+      "environment": "day11",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub11"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "11-south",
+      "destination": "south",
+      "environment": "day11",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub11"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "11-north",
+      "destination": "north",
+      "environment": "day11",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub11"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "12-east",
+      "destination": "east",
+      "environment": "day12",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub12"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "direct-12-east",
+      "destination": "east",
+      "environment": "day12",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 18,
+      "duration_upper": 18,
+      "complete": true
+    },
+    {
+      "id": "12-south",
+      "destination": "south",
+      "environment": "day12",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub12"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "direct-12-south",
+      "destination": "south",
+      "environment": "day12",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "12-north",
+      "destination": "north",
+      "environment": "day12",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub12"
+      ],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "direct-12-north",
+      "destination": "north",
+      "environment": "day12",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "13-east",
+      "destination": "east",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "13-south",
+      "destination": "south",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "13-north",
+      "destination": "north",
+      "environment": "day13",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub13"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "14-east",
+      "destination": "east",
+      "environment": "day14",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub14"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "14-south",
+      "destination": "south",
+      "environment": "day14",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub14"
+      ],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "14-north",
+      "destination": "north",
+      "environment": "day14",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub14"
+      ],
+      "duration_lower": 37,
+      "duration_upper": 37,
+      "complete": true
+    },
+    {
+      "id": "15-east",
+      "destination": "east",
+      "environment": "day15",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub15"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "direct-15-east",
+      "destination": "east",
+      "environment": "day15",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 17,
+      "duration_upper": 17,
+      "complete": true
+    },
+    {
+      "id": "15-south",
+      "destination": "south",
+      "environment": "day15",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub15"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "direct-15-south",
+      "destination": "south",
+      "environment": "day15",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "15-north",
+      "destination": "north",
+      "environment": "day15",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub15"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "direct-15-north",
+      "destination": "north",
+      "environment": "day15",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "16-east",
+      "destination": "east",
+      "environment": "day16",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub16"
+      ],
+      "duration_lower": 20,
+      "duration_upper": 20,
+      "complete": true
+    },
+    {
+      "id": "16-south",
+      "destination": "south",
+      "environment": "day16",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub16"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "16-north",
+      "destination": "north",
+      "environment": "day16",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub16"
+      ],
+      "duration_lower": 32,
+      "duration_upper": 32,
+      "complete": true
+    },
+    {
+      "id": "17-east",
+      "destination": "east",
+      "environment": "day17",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub17"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "17-south",
+      "destination": "south",
+      "environment": "day17",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub17"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "17-north",
+      "destination": "north",
+      "environment": "day17",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub17"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "18-east",
+      "destination": "east",
+      "environment": "day18",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub18"
+      ],
+      "duration_lower": 42,
+      "duration_upper": 42,
+      "complete": true
+    },
+    {
+      "id": "direct-18-east",
+      "destination": "east",
+      "environment": "day18",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "18-south",
+      "destination": "south",
+      "environment": "day18",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub18"
+      ],
+      "duration_lower": 47,
+      "duration_upper": 47,
+      "complete": true
+    },
+    {
+      "id": "direct-18-south",
+      "destination": "south",
+      "environment": "day18",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "18-north",
+      "destination": "north",
+      "environment": "day18",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub18"
+      ],
+      "duration_lower": 54,
+      "duration_upper": 54,
+      "complete": true
+    },
+    {
+      "id": "direct-18-north",
+      "destination": "north",
+      "environment": "day18",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 41,
+      "duration_upper": 41,
+      "complete": true
+    },
+    {
+      "id": "19-east",
+      "destination": "east",
+      "environment": "day19",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub19"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "19-south",
+      "destination": "south",
+      "environment": "day19",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub19"
+      ],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    },
+    {
+      "id": "19-north",
+      "destination": "north",
+      "environment": "day19",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub19"
+      ],
+      "duration_lower": 38,
+      "duration_upper": 38,
+      "complete": true
+    },
+    {
+      "id": "20-east",
+      "destination": "east",
+      "environment": "day20",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub20"
+      ],
+      "duration_lower": 19,
+      "duration_upper": 19,
+      "complete": true
+    },
+    {
+      "id": "20-south",
+      "destination": "south",
+      "environment": "day20",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub20"
+      ],
+      "duration_lower": 24,
+      "duration_upper": 24,
+      "complete": true
+    },
+    {
+      "id": "20-north",
+      "destination": "north",
+      "environment": "day20",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub20"
+      ],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    },
+    {
+      "id": "21-east",
+      "destination": "east",
+      "environment": "day21",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub21"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "direct-21-east",
+      "destination": "east",
+      "environment": "day21",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 17,
+      "duration_upper": 17,
+      "complete": true
+    },
+    {
+      "id": "21-south",
+      "destination": "south",
+      "environment": "day21",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub21"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "direct-21-south",
+      "destination": "south",
+      "environment": "day21",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "21-north",
+      "destination": "north",
+      "environment": "day21",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub21"
+      ],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "direct-21-north",
+      "destination": "north",
+      "environment": "day21",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "22-east",
+      "destination": "east",
+      "environment": "day22",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub22"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "22-south",
+      "destination": "south",
+      "environment": "day22",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub22"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "22-north",
+      "destination": "north",
+      "environment": "day22",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub22"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "23-east",
+      "destination": "east",
+      "environment": "day23",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub23"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "23-south",
+      "destination": "south",
+      "environment": "day23",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub23"
+      ],
+      "duration_lower": 30,
+      "duration_upper": 30,
+      "complete": true
+    },
+    {
+      "id": "23-north",
+      "destination": "north",
+      "environment": "day23",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub23"
+      ],
+      "duration_lower": 37,
+      "duration_upper": 37,
+      "complete": true
+    },
+    {
+      "id": "24-east",
+      "destination": "east",
+      "environment": "day24",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub24"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "direct-24-east",
+      "destination": "east",
+      "environment": "day24",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 20,
+      "duration_upper": 20,
+      "complete": true
+    },
+    {
+      "id": "24-south",
+      "destination": "south",
+      "environment": "day24",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub24"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "direct-24-south",
+      "destination": "south",
+      "environment": "day24",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "24-north",
+      "destination": "north",
+      "environment": "day24",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub24"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "direct-24-north",
+      "destination": "north",
+      "environment": "day24",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 32,
+      "duration_upper": 32,
+      "complete": true
+    },
+    {
+      "id": "25-east",
+      "destination": "east",
+      "environment": "day25",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub25"
+      ],
+      "duration_lower": 20,
+      "duration_upper": 20,
+      "complete": true
+    },
+    {
+      "id": "25-south",
+      "destination": "south",
+      "environment": "day25",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub25"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "25-north",
+      "destination": "north",
+      "environment": "day25",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub25"
+      ],
+      "duration_lower": 32,
+      "duration_upper": 32,
+      "complete": true
+    },
+    {
+      "id": "26-east",
+      "destination": "east",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "26-south",
+      "destination": "south",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "26-north",
+      "destination": "north",
+      "environment": "day26",
+      "route": "hub",
+      "holiday": true,
+      "segment_ids": [
+        "hub26"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "27-east",
+      "destination": "east",
+      "environment": "day27",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub27"
+      ],
+      "duration_lower": 41,
+      "duration_upper": 41,
+      "complete": true
+    },
+    {
+      "id": "direct-27-east",
+      "destination": "east",
+      "environment": "day27",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "27-south",
+      "destination": "south",
+      "environment": "day27",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub27"
+      ],
+      "duration_lower": 46,
+      "duration_upper": 46,
+      "complete": true
+    },
+    {
+      "id": "direct-27-south",
+      "destination": "south",
+      "environment": "day27",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "27-north",
+      "destination": "north",
+      "environment": "day27",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub27"
+      ],
+      "duration_lower": 53,
+      "duration_upper": 53,
+      "complete": true
+    },
+    {
+      "id": "direct-27-north",
+      "destination": "north",
+      "environment": "day27",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 40,
+      "duration_upper": 40,
+      "complete": true
+    },
+    {
+      "id": "28-east",
+      "destination": "east",
+      "environment": "day28",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub28"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "28-south",
+      "destination": "south",
+      "environment": "day28",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub28"
+      ],
+      "duration_lower": 27,
+      "duration_upper": 27,
+      "complete": true
+    },
+    {
+      "id": "28-north",
+      "destination": "north",
+      "environment": "day28",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub28"
+      ],
+      "duration_lower": 34,
+      "duration_upper": 34,
+      "complete": true
+    },
+    {
+      "id": "29-east",
+      "destination": "east",
+      "environment": "day29",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub29"
+      ],
+      "duration_lower": 24,
+      "duration_upper": 24,
+      "complete": true
+    },
+    {
+      "id": "29-south",
+      "destination": "south",
+      "environment": "day29",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub29"
+      ],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "29-north",
+      "destination": "north",
+      "environment": "day29",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub29"
+      ],
+      "duration_lower": 36,
+      "duration_upper": 36,
+      "complete": true
+    },
+    {
+      "id": "30-east",
+      "destination": "east",
+      "environment": "day30",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub30"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "direct-30-east",
+      "destination": "east",
+      "environment": "day30",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 17,
+      "duration_upper": 17,
+      "complete": true
+    },
+    {
+      "id": "30-south",
+      "destination": "south",
+      "environment": "day30",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub30"
+      ],
+      "duration_lower": 26,
+      "duration_upper": 26,
+      "complete": true
+    },
+    {
+      "id": "direct-30-south",
+      "destination": "south",
+      "environment": "day30",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "30-north",
+      "destination": "north",
+      "environment": "day30",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub30"
+      ],
+      "duration_lower": 33,
+      "duration_upper": 33,
+      "complete": true
+    },
+    {
+      "id": "direct-30-north",
+      "destination": "north",
+      "environment": "day30",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 29,
+      "duration_upper": 29,
+      "complete": true
+    },
+    {
+      "id": "31-east",
+      "destination": "east",
+      "environment": "day31",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub31"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "31-south",
+      "destination": "south",
+      "environment": "day31",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub31"
+      ],
+      "duration_lower": 28,
+      "duration_upper": 28,
+      "complete": true
+    },
+    {
+      "id": "31-north",
+      "destination": "north",
+      "environment": "day31",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub31"
+      ],
+      "duration_lower": 35,
+      "duration_upper": 35,
+      "complete": true
+    },
+    {
+      "id": "32-east",
+      "destination": "east",
+      "environment": "day32",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub32"
+      ],
+      "duration_lower": 21,
+      "duration_upper": 21,
+      "complete": true
+    },
+    {
+      "id": "32-south",
+      "destination": "south",
+      "environment": "day32",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub32"
+      ],
+      "duration_lower": 18,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "32-north",
+      "destination": "north",
+      "environment": "day32",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub32"
+      ],
+      "duration_lower": 18,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "33-east",
+      "destination": "east",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 23,
+      "duration_upper": 23,
+      "complete": true
+    },
+    {
+      "id": "direct-33-east",
+      "destination": "east",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 19,
+      "duration_upper": 19,
+      "complete": true
+    },
+    {
+      "id": "33-south",
+      "destination": "south",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 19,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "direct-33-south",
+      "destination": "south",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 24,
+      "duration_upper": 24,
+      "complete": true
+    },
+    {
+      "id": "33-north",
+      "destination": "north",
+      "environment": "day33",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub33"
+      ],
+      "duration_lower": 19,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "direct-33-north",
+      "destination": "north",
+      "environment": "day33",
+      "route": "direct",
+      "holiday": false,
+      "segment_ids": [],
+      "duration_lower": 31,
+      "duration_upper": 31,
+      "complete": true
+    },
+    {
+      "id": "34-east",
+      "destination": "east",
+      "environment": "day34",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub34"
+      ],
+      "duration_lower": 25,
+      "duration_upper": 25,
+      "complete": true
+    },
+    {
+      "id": "34-south",
+      "destination": "south",
+      "environment": "day34",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub34"
+      ],
+      "duration_lower": 20,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "34-north",
+      "destination": "north",
+      "environment": "day34",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub34"
+      ],
+      "duration_lower": 20,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "35-east",
+      "destination": "east",
+      "environment": "day35",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub35"
+      ],
+      "duration_lower": 22,
+      "duration_upper": 22,
+      "complete": true
+    },
+    {
+      "id": "35-south",
+      "destination": "south",
+      "environment": "day35",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub35"
+      ],
+      "duration_lower": 16,
+      "duration_upper": null,
+      "complete": false
+    },
+    {
+      "id": "35-north",
+      "destination": "north",
+      "environment": "day35",
+      "route": "hub",
+      "holiday": false,
+      "segment_ids": [
+        "hub35"
+      ],
+      "duration_lower": 16,
+      "duration_upper": null,
+      "complete": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "hub0",
+      "environment": "day0",
+      "hours": 25
+    },
+    {
+      "id": "hub1",
+      "environment": "day1",
+      "hours": 6
+    },
+    {
+      "id": "hub2",
+      "environment": "day2",
+      "hours": 7
+    },
+    {
+      "id": "hub3",
+      "environment": "day3",
+      "hours": 8
+    },
+    {
+      "id": "hub4",
+      "environment": "day4",
+      "hours": 5
+    },
+    {
+      "id": "hub5",
+      "environment": "day5",
+      "hours": 6
+    },
+    {
+      "id": "hub6",
+      "environment": "day6",
+      "hours": 7
+    },
+    {
+      "id": "hub7",
+      "environment": "day7",
+      "hours": 8
+    },
+    {
+      "id": "hub8",
+      "environment": "day8",
+      "hours": 5
+    },
+    {
+      "id": "hub9",
+      "environment": "day9",
+      "hours": 25
+    },
+    {
+      "id": "hub10",
+      "environment": "day10",
+      "hours": 7
+    },
+    {
+      "id": "hub11",
+      "environment": "day11",
+      "hours": 8
+    },
+    {
+      "id": "hub12",
+      "environment": "day12",
+      "hours": 5
+    },
+    {
+      "id": "hub13",
+      "environment": "day13",
+      "hours": 6
+    },
+    {
+      "id": "hub14",
+      "environment": "day14",
+      "hours": 7
+    },
+    {
+      "id": "hub15",
+      "environment": "day15",
+      "hours": 8
+    },
+    {
+      "id": "hub16",
+      "environment": "day16",
+      "hours": 5
+    },
+    {
+      "id": "hub17",
+      "environment": "day17",
+      "hours": 6
+    },
+    {
+      "id": "hub18",
+      "environment": "day18",
+      "hours": 25
+    },
+    {
+      "id": "hub19",
+      "environment": "day19",
+      "hours": 8
+    },
+    {
+      "id": "hub20",
+      "environment": "day20",
+      "hours": 5
+    },
+    {
+      "id": "hub21",
+      "environment": "day21",
+      "hours": 6
+    },
+    {
+      "id": "hub22",
+      "environment": "day22",
+      "hours": 7
+    },
+    {
+      "id": "hub23",
+      "environment": "day23",
+      "hours": 8
+    },
+    {
+      "id": "hub24",
+      "environment": "day24",
+      "hours": 5
+    },
+    {
+      "id": "hub25",
+      "environment": "day25",
+      "hours": 6
+    },
+    {
+      "id": "hub26",
+      "environment": "day26",
+      "hours": 7
+    },
+    {
+      "id": "hub27",
+      "environment": "day27",
+      "hours": 25
+    },
+    {
+      "id": "hub28",
+      "environment": "day28",
+      "hours": 5
+    },
+    {
+      "id": "hub29",
+      "environment": "day29",
+      "hours": 6
+    },
+    {
+      "id": "hub30",
+      "environment": "day30",
+      "hours": 7
+    },
+    {
+      "id": "hub31",
+      "environment": "day31",
+      "hours": 8
+    },
+    {
+      "id": "hub32",
+      "environment": "day32",
+      "hours": 5
+    },
+    {
+      "id": "hub33",
+      "environment": "day33",
+      "hours": 6
+    },
+    {
+      "id": "hub34",
+      "environment": "day34",
+      "hours": 7
+    },
+    {
+      "id": "hub35",
+      "environment": "day35",
+      "hours": 8
+    }
+  ],
+  "route_segments": {
+    "hub": [
+      "origin",
+      "shared-hub",
+      "last-mile"
+    ],
+    "direct": [
+      "origin",
+      "linehaul"
+    ]
+  },
+  "demand": {
+    "east": 0.4,
+    "south": 0.35,
+    "north": 0.25
+  },
+  "thresholds": {
+    "east": 30,
+    "south": 36,
+    "north": 42
+  }
+}
