@@ -1,0 +1,37 @@
+{
+  "kind": "network",
+  "merchants": [
+    {
+      "id": "a",
+      "owner": "a",
+      "region": "east"
+    },
+    {
+      "id": "b",
+      "owner": "b",
+      "region": "west"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "single",
+      "from": "a",
+      "to": "b",
+      "boxes": 5,
+      "week": 0,
+      "known_at": 0,
+      "revision": 1,
+      "cancelled": false
+    }
+  ],
+  "as_of_week": 9,
+  "allowed_region_pairs": [
+    [
+      "east",
+      "west"
+    ]
+  ],
+  "heldout_weeks": [],
+  "replicates": 200,
+  "seed": 891
+}
