@@ -1,8 +1,8 @@
 # 受交易机会约束的商户调货互惠与中介结构检验
 
-本地分析工作台保留已有业务资料与预览能力，增加了独立分析资料的校验和 HTTP 预览。`data/study` 保存本地合成资料，`app/study.py` 解释资料结构；新的分析消费调用尚未接入，不能把当前描述统计当成推断结果。
+本地分析工作台保留已有业务资料与预览能力，并提供独立分析资料的校验、HTTP 预览与结构证据推断。`data/study` 保存本地合成资料，`app/study.py` 解释资料结构，`app/evidence.py` 在控制交易规模、可交易对象与周别机会后检验互惠与中介是否超出随机参照；出货量榜本身不作为协作证据。
 
-数据均为本地合成，不含真实姓名、电话号码或生产系统凭据。`standard` 是常规资料，`edge` 用于检查信息不足或约束冲突。它们只描述观测，不预设分析结论。
+数据均为本地合成，不含真实姓名、电话号码或生产系统凭据。`standard` 是常规资料，`edge` 用于检查信息不足或约束冲突，`fixed` 是约束把参照空间完全锁死的资料。它们只描述观测，不预设分析结论。
 
 ## 本地使用
 
@@ -27,4 +27,4 @@ docker run --rm --network none local/joint-sla-risk:baseline python -m unittest 
 docker run --rm --network none local/joint-sla-risk:baseline
 ```
 
-准备阶段允许构建镜像和预装依赖；正式演示不进行构建或安装。默认演示只显示已有功能。新能力完成后，请使演示通过实际 HTTP 消费调用展示输入口径、分析结果和限制，保留完整输出；小样本预期在 90 秒内结束。功能测试启用方式：`RUN_ACCEPTANCE=1 python -m unittest tests.test_acceptance -v`，初始版本未提供新接口，故默认跳过这些测试。
+准备阶段允许构建镜像和预装依赖；正式演示不进行构建或安装。演示通过真实 HTTP 调用展示旧业务预览、study 资料描述与 /network-evidence 结构证据（含参照守恒量、随机检验误差、多重性与后续周持续检验），保留完整输出；三个资料在数秒内结束。功能测试启用方式：`RUN_ACCEPTANCE=1 python -m unittest tests.test_acceptance -v`，默认跳过验收测试，算法层面的可核对计算与正向/锁死对照在 tests.test_evidence 中默认运行。
